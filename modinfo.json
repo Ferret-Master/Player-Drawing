@@ -1,0 +1,36 @@
+ {
+   "context": "server",
+   "identifier": "com.pa.ferretmaster.drawing",
+   "display_name": "Ingame Drawing",
+   "description": "A mod that allows players to draw on the map to communicate with their team",
+   "author": "Ferretmaster",
+   "version": "1.00",
+   "build": "114475",
+   "date": "2020-6-24",
+   "signature": "not yet implemented",
+
+   
+   "priority": 100,
+   "icon": "",
+    "scenes": {
+        "live_game": [
+            "coui://ui/mods/effect_testing/live_game/drawFunctions.js",
+            "coui://ui/mods/effect_testing/live_game/drawing.js"
+      
+        ],
+        "new_game": [
+            "coui://ui/mods/effect_testing/new_game/lobbyMessage.js"
+        ],
+        "LiveGame_FloatZone": [
+            "coui://ui/mods/effect_testing/floatzone/floatZoneIcons.css",
+            "coui://ui/mods/effect_testing/floatzone/floatZoneIcons.js"
+        ],
+        "live_game_chat": [
+            "coui://ui/mods/effect_testing/live_game_chat/chatWrapper.js"
+        ],
+        "live_game_options_bar": [
+            "coui://ui/mods/effect_testing/options_bar/drawOptionsBar.js"
+        ]
+    },
+   "category": ["ui","titans", "in-game"]
+ }
